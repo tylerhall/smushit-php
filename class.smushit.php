@@ -80,7 +80,7 @@
                 $this->error = $json->error;
                 return false;
             }
-
+            $this->filename       = substr (strrchr ($json->src, '/'), 1 );
             $this->size           = $json->src_size;
             $this->compressedUrl  = $json->dest;
             $this->compressedSize = $json->dest_size;

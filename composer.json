@@ -1,9 +1,9 @@
 {
-  "name": "simonhamp/routes",
+  "name": " tylerhall / smushit-php",
   "type": "library",
-  "description": "A low-level router class for PHP based on CodeIgniter's core/Router.php.",
-  "keywords": ["php", "routing"],
-  "homepage": "https://github.com/simonhamp/routes",
+  "description": "A PHP wrapper around Yahoo!'s Smush.it image compression web service.",
+  "keywords": ["php", "smushit", "image optimization"],
+  "homepage": "https://github.com/tylerhall/smushit-php",
   "license": "MIT",
 
   "require": {
@@ -17,7 +17,7 @@
   ],
 
   "autoload": {
-    "classmap": ["routes.php"]
+    "classmap": ["class.smushit.php"]
   },
 
   "target-dir": ""

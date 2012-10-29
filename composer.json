@@ -1,5 +1,5 @@
 {
-  "name": " tylerhall/smushit-php",
+  "name": " tylerhall/smushit",
   "type": "library",
   "description": "A PHP wrapper around Yahoo!'s Smush.it image compression web service.",
   "keywords": ["php", "smushit", "image optimization"],

@@ -1,6 +1,5 @@
 {
-  "name": " tylerhall/smushit-php",
-  "type": "library",
+  "name": "tylerhall/smushit-php",
   "description": "A PHP wrapper around Yahoo!'s Smush.it image compression web service.",
   "keywords": ["php", "smushit", "image optimization"],
   "homepage": "https://github.com/tylerhall/smushit-php",
@@ -10,11 +9,13 @@
     "php": ">=5.3.0"
   },
 
-  "authors": [
-  {
-    "name": "Tyler Hall"
-  }
-  ],
+  "authors": [ {
+    "name": "Tyler Hall",
+    "homepage": "http://clickontyler.com/"
+  }, {
+    "name": "Marco Raddatz",
+    "homepage": "http://www.marcoraddatz.com"
+  }],
 
   "autoload": {
     "classmap": ["class.smushit.php"]

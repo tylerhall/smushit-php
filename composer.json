@@ -12,9 +12,6 @@
   "authors": [ {
     "name": "Tyler Hall",
     "homepage": "http://clickontyler.com/"
-  }, {
-    "name": "Marco Raddatz",
-    "homepage": "http://www.marcoraddatz.com"
   }],
 
   "autoload": {
